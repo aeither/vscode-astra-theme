@@ -1,0 +1,39 @@
+{
+  "name": "astra",
+  "displayName": "Astra Theme",
+  "publisher": "aeither",
+  "publisherDisplayName": "Giovanni Fu Lin",
+  "author": "Giovanni Fu Lin <giovannifulin@gmail.com> (http://linkedin.com/giovannifulin)",
+  "description": "A simple colorful dark Theme.",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#313111",
+    "theme": "dark"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "astra",
+    "night theme",
+    "colorful",
+    "dark",
+    "high contrast theme"
+  ],
+  "version": "1.0.1",
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Astra",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Astra-color-theme.json"
+      }
+    ]
+  },
+  "license": "MIT"
+}
