@@ -4,9 +4,9 @@
   "colors": {
     "activityBar.background": "#181818",
     "activityBar.foreground": "#D7DAE0",
-    "activityBarBadge.background": "#528bff",
+    "activityBarBadge.background": "#3a7bff",
     "activityBarBadge.foreground": "#F8FAFD",
-    "button.background": "#528bff",
+    "button.background": "#3a7bff",
     "diffEditor.insertedTextBackground": "#00809B33",
     "dropdown.background": "#1d1f23",
     "dropdown.border": "#181A1F",
@@ -53,13 +53,13 @@
     "tab.activeBackground": "#383E4A",
     "tab.border": "#181A1F",
     "tab.inactiveBackground": "#222222",
-    "terminal.foreground": "#ffffffcb",
+    "terminal.foreground": "#ffffff",
     "terminal.ansiBlack": "#2d3139",
     "terminal.ansiBlue": "#528bff",
     "terminal.ansiGreen": "#6fe25a",
-    "terminal.ansiYellow": "#e5c07b",
-    "terminal.ansiCyan": "#84efff",
-    "terminal.ansiMagenta": "#c678dd",
+    "terminal.ansiYellow": "#e4b050",
+    "terminal.ansiCyan": "#56e8ff",
+    "terminal.ansiMagenta": "#b438da",
     "terminal.ansiRed": "#dd6094",
     "terminal.ansiWhite": "#d7dae0",
     "terminal.ansiBrightBlack": "#7f848e",
@@ -76,6 +76,15 @@
     "titleBar.inactiveForeground": "#6B717D"
   },
   "tokenColors": [
+    {
+      "name": "HTML text",
+      "scope": [
+        "text.html.derivative"
+      ],
+      "settings": {
+        "foreground": "#e7e7e7"
+      }
+    },
     {
       "name": "Comment",
       "scope": [
